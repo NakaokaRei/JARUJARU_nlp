@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 import MeCab
+from gensim import matutils
 
 mecab = MeCab.Tagger('mecabrc')
 
@@ -20,3 +22,6 @@ def get_words(contents):
 #一つの記事を形態素解析して返す
 def get_words_main(content):
     return [token for token in tokenize(content)]
+
+def vec2dense(vec, num_terms):
+    return list(matutils.corpus2dense([vec], num_terms=num_terms).T[0])
