@@ -8,7 +8,7 @@ from gensim.corpora import Dictionary
 
 args = sys.argv
 
-with open('model.pickle', mode='rb') as fp:
+with open('data/model.pickle', mode='rb') as fp:
     clf = pickle.load(fp)
 
 predict2word = ['見る価値なし', 'まあまあ', '一見の価値あり']
