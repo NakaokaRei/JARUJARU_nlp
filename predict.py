@@ -11,7 +11,7 @@ args = sys.argv
 with open('data/model.pickle', mode='rb') as fp:
     clf = pickle.load(fp)
 
-predict2word = ['見る価値なし', 'まあまあ', '一見の価値あり']
+predict2word = ['見る価値無し', 'まあまあ', '一見の価値あり']
 
 dictionary = Dictionary.load('data/jarujaru.dict')
 
