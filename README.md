@@ -25,3 +25,4 @@ $ python predict.py ここにジャルジャルのコントの名前
 
 ## 参考記事
 * [ニュースの記事の分類を機械学習で予測する](https://qiita.com/hyo_07/items/ba3d53868b2f55ed9941)
+* [『ジャルジャルの動画のタイトルから再生回数を予測する奴』](https://qiita.com/NakaokaRei/items/06f6fa98714aaa649810)
